@@ -25,6 +25,10 @@ dependencies = {file = ["requirements.txt"]}
 [tool.setuptools.dynamic.optional-dependencies]
 dev = {file = ['requirements_dev.txt']}
 
+[project.scripts]
+
+train = "mnist_cookie.main:train"
+
 [tool.ruff]
 line-length = 120
 
