@@ -18,3 +18,5 @@ def test_data():
     assert (train_targets == torch.arange(0,10)).all() 
     assert (test_targets == torch.arange(0,10)).all()
         
+
+#testing github pull request setup
