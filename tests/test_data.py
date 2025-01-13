@@ -1,6 +1,6 @@
 from torch.utils.data import Dataset
 import torch
-from mnist_cookie.data import corrupt_mnist
+from src.mnist_cookie.data import corrupt_mnist
 
 
 def test_data():

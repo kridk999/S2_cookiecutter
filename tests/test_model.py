@@ -1,4 +1,4 @@
-from mnist_cookie.model import MyAwesomeModel
+from src.mnist_cookie.model import MyAwesomeModel
 import torch
 import pytest
 
